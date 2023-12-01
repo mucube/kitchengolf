@@ -1124,6 +1124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eb7c99ee1b5c1c489428cf18e47062d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1776470301}
+  resetButton: {fileID: 667591838}
 --- !u!114 &667591838
 MonoBehaviour:
   m_ObjectHideFlags: 0
