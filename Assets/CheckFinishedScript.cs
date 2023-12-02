@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class CheckFinishedScript : MonoBehaviour
 {
     public TMP_Text gameText;
@@ -17,6 +17,7 @@ public class CheckFinishedScript : MonoBehaviour
         if (coll.gameObject.name == "FinishLine")
         {
             gameText.text = "Finished!";
+            SceneManager.LoadScene("Menu");
         }
     }
 
